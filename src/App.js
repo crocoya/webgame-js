@@ -3,9 +3,9 @@ import MainRouter from './routers/MainRouter';
 
 function App() {
   return (
-    <MainRouter>
-      <div className='App'></div>
-    </MainRouter>
+    <div className='App'>
+      <MainRouter />
+    </div>
   );
 }
 
